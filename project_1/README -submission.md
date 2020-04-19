@@ -34,11 +34,11 @@ This project is taking a look at aggregate SAT and ACT scores and participation 
 |*Total_SAT_17*|*int*|**|
 |*Total_SAT_17*|*int*|**|
 |*Evidence-Based Reading and Writing_SAT_18*|*int*|**|
-|*Math_SAT_18 *|*int*|**|
-|*Total_SAT_18 *|*int*|**|
+|*Math_SAT_18*|*int*|**|
+|*Total_SAT_18*|*int*|**|
 |*Percentage of Students Tested_ACT_18*|*int*|**|
 |*Average Composite Score_ACT_18*|*float*|**|
 |*Average English Score_ACT_18*|*float*|**|
-|*Average Math Score_ACT_18 *|*float*|**|
-|*Average Reading Score_ACT_18 *|*float*|**|
+|*Average Math Score_ACT_18*|*float*|**|
+|*Average Reading Score_ACT_18*|*float*|**|
 |*Average Science Score_ACT_18*|*float*|**|
