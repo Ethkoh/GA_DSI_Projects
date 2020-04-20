@@ -6,6 +6,7 @@
 This project is taking a look at aggregate SAT and ACT scores and participation rates from each state and DC in the United States from 2017 to 2018.
 
 ### Problem Set
+To increase California state participation rate in either test
 
 ### Datasets
 - 2017 SAT Scores (./data/sat_2017.csv)
@@ -17,28 +18,27 @@ This project is taking a look at aggregate SAT and ACT scores and participation 
 ### 'final' DataFrame
 (/final.csv)
 
+
 |Feature|Type|Description|
 |---|---|---|
-|*State*|*string*|**|
-|*Participation_SAT_17*|*float*|**|
-|*Evidence-Based Reading and Writing_SAT_17*|*int*|**|
-|*Math_SAT_17*|*int*|**|
-|*Total_SAT_17*|*int*|**|
-|*Participation_ACT_17*|*float*|**|
-|*English_ACT_17*|*float*|**|
-|*Math_ACT_17*|*float*|**|
-|*Reading_ACT_17*|*float*|**|
-|*Science_ACT_17*|*float*|**|
-|*Composite_ACT_17*|*float*|**|
-|*Participation_SAT_18*|*float*|**|
-|*Total_SAT_17*|*int*|**|
-|*Total_SAT_17*|*int*|**|
-|*Evidence-Based Reading and Writing_SAT_18*|*int*|**|
-|*Math_SAT_18*|*int*|**|
-|*Total_SAT_18*|*int*|**|
-|*Percentage of Students Tested_ACT_18*|*int*|**|
-|*Average Composite Score_ACT_18*|*float*|**|
-|*Average English Score_ACT_18*|*float*|**|
-|*Average Math Score_ACT_18*|*float*|**|
-|*Average Reading Score_ACT_18*|*float*|**|
-|*Average Science Score_ACT_18*|*float*|**|
+|*State*|*string*|*50 States of the USA and District of Columbia*|
+|*Participation_SAT_17*|*float*|*Aggregated participation rate of SAT in 2017. In percentage out of 100%*|
+|*Reading_and_Writing_SAT_17*|*int*|*Aggregated reading and writing score for SAT 2017, out of total of 800*|
+|*Math_SAT_17*|*int*|*Aggregated mathematics score for SAT 2017, out of total of 800*|
+|*Total_SAT_17*|*int*|*Aggregated total SAT score for 2017, out of total of 1600*|
+|*Participation_ACT_17*|*float*|*Aggregated participation rate of ACT in 2017. In percentage out of 100%*|
+|*English_ACT_17*|*float*|*Aggregated english ACT score for 2017, out of total of 75*|
+|*Math_ACT_17*|*float*|*Aggregated mathematics ACT score for 2017, out of total of 60*|
+|*Reading_ACT_17*|*float*|*Aggregated reading ACT score for 2017, out of total of 40*|
+|*Science_ACT_17*|*float*|*Aggregated science ACT score for 2017, out of total of 40*|
+|*Composite_ACT_17*|*float*|*Aggregated composite ACT score for 2017, out of total of 36*|
+|*Participation_SAT_18*|*float*|*Aggregated participation rate of SAT in 2018. In percentage out of 100%*|
+|*Reading_and_Writing_SAT_18*|*int*|*Aggregated reading and writing score for SAT 2018, out of total of 800*|
+|*Math_SAT_18*|*int*|*Aggregated mathematics score for SAT 2018, out of total of 800*|
+|*Total_SAT_18*|*int*|*Aggregated total SAT score for 2018, out of total of 1600*|
+|*Participation_ACT_18*|*int*|*Aggregated participation rate of ACT in 2018. In percentage out of 100%*|
+|*Composite_ACT_18*|*float*|*Aggregated composite ACT score for 2018, out of total of 36*|
+|*English_ACT_18*|*float*|*Aggregated english ACT score for 2018, out of total of 75*|
+|*Math_ACT_18*|*float*|*Aggregated mathematics ACT score for 2018, out of total of 60*|
+|*Reading_ACT_18*|*float*|*Aggregated reading ACT score for 2018, out of total of 40*|
+|*Science_ACT_18*|*float*|*Aggregated science ACT score for 2018, out of total of 40*|
