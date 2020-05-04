@@ -1,6 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 2: Ames Housing Sale Price Prediction
    ---
-  *By Ethan Koh, 28 April 2020*
+  *By Ethan Koh, 4 May 2020*
 ### Overview and Problem Set
 The property market is not for the ill-informed. Housing prices can be cruelly volatile as they can get affected by multiple factors. Every buyer and seller of a house seek to equip with better knowledge to achieve a reasonable transaction price. Even though it's not possible for every contributing factor to be captured by our dataset, given the housing dataset in Ames, we are going to create a __regression model predicting the sale price of houses in Ames, Iowa__. In addition, we will be able to discover what are the main factors contributing to the price.
 
