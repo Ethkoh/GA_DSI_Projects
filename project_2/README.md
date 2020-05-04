@@ -33,14 +33,13 @@ In addition, there are limitations to predict future prices based on a 2006-2010
 - Filling missing values</ul>
 - Exploratory Data Analysis<br /> <ul>
 - Datatypes Correction
-- Datatypes Correction
 - Remove outliers
 - Correlation
 - Feature Selection</ul>
 - Feature Engineering: Interaction terms
 - Drop columns
 - Data Conversion: String to integer
-- Convert Categorie to Integers via get_dummies
+- Convert Categories to Integers via get_dummies
 - Model Prep
 - Select Hyperparameters<ul>
 - Lasso Regression
