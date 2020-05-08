@@ -9,11 +9,18 @@ This project is taking a look at aggregate SAT and ACT scores and participation 
 To increase California state participation rate in either test
 
 ### Datasets
+Original: 
 - 2017 SAT Scores (./data/sat_2017.csv)
 - 2018 SAT Scores (./data/sat_2018.csv)
 - 2017 ACT Scores (./data/act_2017.csv)
 - 2018 ACT Scores (./data/act_2018_updated.csv)
-- Jupyter notebook with my analysis
+
+Created:
+- combined_2017 (./data/combined_2017.csv)
+- final (./data/final.csv)
+
+### Code
+- Jupyter notebook with my analysis (./code/project1_notebook_final.ipynb)
 
 ### 'final' DataFrame
 (/final.csv)
