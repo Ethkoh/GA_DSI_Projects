@@ -23,27 +23,27 @@ Dataset (from part1 notebook:Project_3_Reddit_API_to_CSV_Part_1.ipynb) is retrie
 - Part 2: Project_3_Reddit_NLP_Classification_Part_2
 
 ### Part 2 Contents:
-- [Import Libraries]
-- [Load Dataset from CSV]
-- [Macro Analysis]
-- [Data Cleaning]<ul>
-- [Remove Null values](#Remove-Null-values)
-- [Remove Duplicates](#Remove-Duplicates)</ul>
-- [Choose stopwords library to use]<ul>
-- [Number of words in total for each subreddit preprocessing]
-- [Calculate and Plot Word Frequency](
-- [Create final stopwords]</ul>
-- [Combine into `X` and `y`]
-- [Split data into training and testing sets]
-- [Words Preprocessing]
-- [Turn text into features]
-- [Baseline accuracy]
-- [Fit a Naive Bayes model]
-- [Fit a Logistic Regression model]
-- [Fit Random Forest Classifier]
-- [Combine a few models and get best score]
-- [Fine tuning Logistic Regression hyperparameters]
-- [Fit Final Logistic Model]
-- [Conclusion]
-- [Limitations and Recommendation]
-- [Sources]
+- Import Libraries
+- Load Dataset from CSV
+- Macro Analysis
+- Data Cleaning<ul>
+- Remove Null values
+- Remove Duplicates</ul>
+- Choose stopwords library to use<ul>
+- Number of words in total for each subreddit preprocessing
+- Calculate and Plot Word Frequency
+- Create final stopwords</ul>
+- Combine into `X` and `y`
+- Split data into training and testing sets
+- Words Preprocessing
+- Turn text into features
+- Baseline accuracy
+- Fit a Naive Bayes model
+- Fit a Logistic Regression model
+- Fit Random Forest Classifier
+- Combine a few models and get best score
+- Fine tuning Logistic Regression hyperparameters
+- Fit Final Logistic Model
+- Conclusion
+- Limitations and Recommendation
+- Sources
