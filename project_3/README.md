@@ -19,31 +19,31 @@ Given a post, able to classify correctly whether it belongs to Parenting or Casu
 Dataset (from part1 notebook:Project_3_Reddit_API_to_CSV_Part_1.ipynb) is retrieved from r/CasualConversation <sup>2</sup> and r/Parenting <sup>3</sup> subreddits using the Reddit API on 14 May 2020.
 
 ## Content:
-- Part 1: Project_3_Reddit_API_to_CSV_Part_1.ipynb
+- Part 1: Project_3_Reddit_API_to_CSV_Part_1
 - Part 2: Project_3_Reddit_NLP_Classification_Part_2
 
 ### Part 2 Contents:
-- [Import Libraries](#Import-Libraries)
-- [Load Dataset from CSV](#Load-Dataset-from-CSV)
-- [Macro Analysis](#Macro-Analysis)
-- [Data Cleaning](#Data-Cleaning)<ul>
+- [Import Libraries]
+- [Load Dataset from CSV]
+- [Macro Analysis]
+- [Data Cleaning]<ul>
 - [Remove Null values](#Remove-Null-values)
 - [Remove Duplicates](#Remove-Duplicates)</ul>
-- [Choose stopwords library to use](#Choose-stopwords-library-to-use)<ul>
-- [Number of words in total for each subreddit preprocessing](#Number-of-words-in-total-for-each-subreddit-preprocessing)
-- [Calculate and Plot Word Frequency](#Calculate-and-Plot-Word-Frequency)
-- [Create final stopwords](#Create-final-stopwords)</ul>
-- [Combine into `X` and `y`](#Combine-into-X-and-y)
-- [Split data into training and testing sets](#Split-data-into-training-and-testing-sets)
-- [Words Preprocessing](#Words-Preprocessing)
-- [Turn text into features](#Turn-text-into-features)
-- [Baseline accuracy](#Baseline-accuracy)
-- [Fit a Naive Bayes model](#Fit-a-Naive-Bayes-model)
-- [Fit a Logistic Regression model](#Fit-a-Logistic-Regression-model)
-- [Fit Random Forest Classifier](#Fit-Random-Forest-Classifier)
-- [Combine a few models and get best score](#Combine-a-few-models-and-get-best-score)
-- [Fine tuning Logistic Regression hyperparameters](#Fine-tuning-Logistic-Regression-hyperparameters)
-- [Fit Final Logistic Model](#Fit-Final-Logistic-Model)
-- [Conclusion](#Conclusion)
-- [Limitations and Recommendation](#Limitations-and-Recommendation)
-- [Sources](#Sources)
+- [Choose stopwords library to use]<ul>
+- [Number of words in total for each subreddit preprocessing]
+- [Calculate and Plot Word Frequency](
+- [Create final stopwords]</ul>
+- [Combine into `X` and `y`]
+- [Split data into training and testing sets]
+- [Words Preprocessing]
+- [Turn text into features]
+- [Baseline accuracy]
+- [Fit a Naive Bayes model]
+- [Fit a Logistic Regression model]
+- [Fit Random Forest Classifier]
+- [Combine a few models and get best score]
+- [Fine tuning Logistic Regression hyperparameters]
+- [Fit Final Logistic Model]
+- [Conclusion]
+- [Limitations and Recommendation]
+- [Sources]
