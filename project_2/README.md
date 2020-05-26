@@ -2,7 +2,7 @@
    ---
   *By Ethan Koh, 4 May 2020*
 ### Overview and Problem Set
-The property market is not for the ill-informed. Housing prices can be cruelly volatile as they can get affected by multiple factors. Every buyer and seller of a house seek to equip with better knowledge to achieve a reasonable transaction price. Even though it's not possible for every contributing factor to be captured by our dataset, given the housing dataset in Ames, we are going to create a __regression model predicting the sale price of houses in Ames, Iowa__. In addition, we will be able to discover what are the main factors contributing to the price.
+The property market is not for the ill-informed. Housing prices can be cruelly volatile as they can get affected by multiple factors. Every buyer and seller of a house seek to equip with better knowledge to achieve a reasonable transaction price. Even though it's not possible for every contributing factor to be captured by our dataset, given the housing dataset in Ames, we are going to create a __regression model to predict the sale price of houses in Ames, Iowa__ based on historical sale prices. In addition, we will be able to __discover what are the main factors contributing to the price and provide recommendations to both buyers and sellers in Ames__. A seller will be keen in knowing what main factors to boost the selling price in order to make improvements to sell at a high price. Meanwhile, a buyer is restricted by limited resource, money. Hence, a buyer will be keen to know what are the main factors that drives up the sale price which may influence their decision on whether they want to proceed buying the house of their dream or for investment purpose. 
 
 ### Datasets
 These datasets are provided by General Assembly for our course Kaggle competition. The dataset was prepared by Dean De Cock taken from the Ames, Iowa Assessor’s Office, originally used for tax assessment purpose. Data set contains information used in computing assessed values for individual residential properties sold in Ames, Iowa from 2006 to 2010.
@@ -28,7 +28,7 @@ In addition, there are limitations to predict future prices based on a 2006-2010
 - Import Libraries<br /> 
 - Load Dataset<br />
 - Data Cleaning: Missing Data <br /> <ul>
-- Left 4 predictors with missing values
+- Left 6 predictors with missing values
 - Missing values actions to take 
 - Filling missing values</ul>
 - Exploratory Data Analysis<br /> <ul>
@@ -39,13 +39,13 @@ In addition, there are limitations to predict future prices based on a 2006-2010
 - Feature Engineering: Interaction terms
 - Drop columns
 - Data Conversion: String to integer
+- Final Feature Selection
 - Convert Categories to Integers via get_dummies
 - Model Prep
 - Select Hyperparameters<ul>
 - Lasso Regression
-- Elastic Regression
-- Refine Elastic Regression</ul>
+- Ridge Regression</ul>
 - Baseline model
-- Scaling
 - Model Selection, Fitting and Evaluation
 - Kaggle Submission
+- Conclusion and Recommendations
