@@ -24,7 +24,7 @@ Using top 25 world news title from reddit alone may not be a sufficient corpus t
 
 Sentimental Analysis using TextBlob was then used to give sentiment scores to the news to model instead of relying on just vectorizing tools from Natural Language Processing. However, the score was still poor below baseline model. Looking into the sentimental score EDA suggest many were give neutral sentiment of score 0, unable to facilitate in modeling.
 
-Though the classification model was not successful, a glimpse into the EDA provides some interesting observations. Also, this suggests that everyday news might have little to contribute to the DJIA pricing movement. Hence, this project concludes that watching daily everyday news alone might not be sufficient to decide whether prices are trending upwards or downwards at any given day. Thus, more precaution and work have to be done while trading in stock market. One should not simply trade based on watching daily world news.
+Though the classification model was not successful, a glimpse into the EDA provided some interesting observations. Also, this suggests that everyday news might have little to contribute to the DJIA pricing movement. Hence, this project concludes that watching daily everyday news alone might not be sufficient to decide whether prices are trending upwards or downwards at any given day. Thus, more precaution and work have to be done while trading in stock market. One should not simply trade based on watching daily world news.
 
 
 ## Content
